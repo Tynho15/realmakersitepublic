@@ -39,7 +39,7 @@ header div.contexto nav#menu-desktop ul li{
 header div.contexto nav#menu-desktop ul li a{
     text-decoration: none;
     text-transform: uppercase;
-    color: white;
+    color: #FF0015;
 }
 
 section.banner {
