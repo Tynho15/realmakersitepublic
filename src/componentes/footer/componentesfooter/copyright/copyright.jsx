@@ -1,11 +1,9 @@
 
-
+import './style.css'
 function Copyright(){
     return(
-        <div className="copy">Real Maker Studio
-        Startup desenvolvedora de jogos indie
-        e independentes Mobile e PC
-
+        <div className="copy"> 
+         <p className="copyright">Real Maker Studio © 2021 a 2023</p>
     </div>
     )
 }
