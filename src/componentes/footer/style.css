@@ -1,4 +1,7 @@
 .rodape{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     color: #ffffff;
     background-color: black;
     height: 100px;
