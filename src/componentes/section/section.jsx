@@ -1,14 +1,14 @@
 
+import Section01 from './section01/section01';
+/* import Section02 from './section02/section02'; */
 import './style.css';
-function Section(){
-    return(
+function Section() {
+    return (
         <section className="seção01">
-            <p>Real Maker Studio
-Startup desenvolvedora de jogos indie
-e independentes Mobile e PC
-
-</p>
+            <Section01/>
+           {/*  <Section02/> */}
         </section>
+
     )
 }
 export default Section;

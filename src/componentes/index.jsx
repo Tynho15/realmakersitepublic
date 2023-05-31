@@ -1,6 +1,7 @@
 import Footer from "./footer/footer";
 import Header from "./header/header";
 import Section from "./section/section";
+import View from "./view/view";
 
 
 function Componentes() {
@@ -8,6 +9,7 @@ function Componentes() {
         <div>
             <Header />
             <Section/>
+            <View/>
             <Footer />
         </div>
 

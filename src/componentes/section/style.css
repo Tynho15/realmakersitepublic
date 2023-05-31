@@ -1,5 +1,6 @@
 .seção01{
+    margin: 0;
     background-color: #FF0015;
-    height: 100px;
+    height: 80vh;
     width: 100%;
 }
