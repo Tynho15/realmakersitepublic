@@ -7,17 +7,29 @@ body {
 
 header {
     background-color: #ffffff;
-    height: 400px;
+    display: flex;
+    height: 500px;
     width: 100%;
 }
-
+.navHeader{
+    display: flex;
+}
+.paiSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .section01 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-content: center;
     background-color: aqua;
-    height: 400px;
     width: 100%;
 }
 
 .section02 {
+    
     background-color: blue;
     height: 400px;
     width: 100%;
@@ -25,8 +37,8 @@ header {
 }
 
 .section03 {
-    background-color: #d3d3d3;
-    height: 300px;
+    background-color: #bbbbbb;
+    display: flex;
     width: 100%;
 }
 
