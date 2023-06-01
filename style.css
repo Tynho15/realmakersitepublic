@@ -4,16 +4,36 @@ body {
     height: 100vh;
     width: 100vw;
 }
-
+         /* CSS HEADER */
 header {
     background-color: #ffffff;
     display: flex;
-    height: 500px;
+    align-items: center;
+    justify-content: space-between;
     width: 100%;
 }
 .navHeader{
     display: flex;
 }
+.textHeader{
+    margin: 10px;
+    font-size: 25px;
+}
+.lupaPesquisa{
+    margin: 5px;
+    display: flex;
+    height: 2rem;
+    width: 15rem;
+    border: 1px solid #bbbbbb;
+    border-radius: 10px;
+}
+.lupaPesquisa_01{
+    margin: 3px;
+   border: 0;
+   outline:0;
+}
+
+     /* CSS SECTIONS */
 .paiSection{
     display: flex;
     flex-direction: column;
@@ -43,8 +63,8 @@ header {
 }
 
 .logoImg {
-    height: 25.375rem;
-    width: 25.375rem;
+    height: 100px;
+    width: 100px;
 }
 
 .logoImg_02 {
