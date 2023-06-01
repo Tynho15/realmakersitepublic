@@ -13,6 +13,7 @@ header {
     width: 100%;
 }
 .navHeader{
+    margin-right: 2rem;
     display: flex;
 }
 .textHeader{
@@ -68,7 +69,7 @@ header {
 }
 
 .logoImg_02 {
-    height: 25.375;
+    height: 25.375rem;
     width: 45.0625rem;
 }
 
