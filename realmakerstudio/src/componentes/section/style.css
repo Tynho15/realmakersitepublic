@@ -1,0 +1,42 @@
+/* CSS SECTIONS */
+.paiSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section01 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    background-color: aqua;
+    width: 100%;
+    padding: 20px;
+}
+
+.section02 {
+    background-color:  rgb(255, 0, 13);
+    height: 400px;
+    width: 100%;
+}
+
+.section03 {
+    background-color: #bbbbbb;
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoImg {
+    margin-left: 20px;
+    height: 70px;
+    width: 70px;
+}
+
+.logoImg_02 {
+    height: 25.375rem;
+    width: 45.0625rem;
+}
