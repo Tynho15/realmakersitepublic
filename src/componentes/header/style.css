@@ -5,7 +5,7 @@ header {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding: 10px;
+    
 }
 
 .navHeader {
@@ -50,3 +50,40 @@ header {
     border: 0;
     outline: 0;
 }
+
+
+/* text */
+.menu {
+    position: relative;
+  }
+  
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .hamburger-line {
+    width: 30px;
+    height: 3px;
+    background-color: #000;
+    margin: 4px;
+  }
+  
+  .menu-items {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    list-style-type: none;
+  }
+  
+  .menu-items li {
+    margin-bottom: 10px;
+  }

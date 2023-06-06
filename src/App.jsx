@@ -4,7 +4,6 @@ import Section from "./componentes/section";
 
 
 
-
 function App() {
     return (
         <div>
