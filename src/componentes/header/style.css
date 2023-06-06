@@ -1,89 +1,122 @@
 /* CSS HEADER */
 header {
-    background-color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    
-}
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 
+}
+.logoImg {
+  height: 70px;
+  width: 70px;
+}
 .navHeader {
-    margin-right: 2rem;
-    display: flex;
+  flex-direction: column;
+  margin-right: 2rem;
+  display: flex;
 }
 
 .textHeader {
-    text-decoration: none;
-    text-align: center;
-    background-color: rgb(34, 34, 34);
-    color: #ffffff;
-    border-radius: 10px;
-    height: 2rem;
-    width: 6rem;
-    margin: 10px;
-    font-size: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: all 0.2s ease;
+  text-decoration: none;
+  text-align: center;
+  background-color: rgb(34, 34, 34);
+  color: #ffffff;
+  border-radius: 10px;
+  height: 2rem;
+  width: 6rem;
+  margin: 10px;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
 }
 
 .textHeader:hover {
-    height: 2.1rem;
-    font-size: 28px;
-    background-color: rgb(255, 0, 13);
+  height: 2.1rem;
+  font-size: 28px;
+  background-color: rgb(255, 0, 13);
 }
 
 .lupaPesquisa {
-    margin: 5px;
-    display: flex;
-    height: 2rem;
-    width: 15rem;
-    border: 1px solid #bbbbbb;
-    border-radius: 10px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 2.5rem;
+  width: 17rem;
+  border: 1px solid #979797;
+  border-radius: 10px;
+}
+
+.icoLupa {
+  color: #979797;
+  margin-right: 5px;
+}
+.icoGlobal{
+  font-size: 20px;
 }
 
 .lupaPesquisa_01 {
-    margin: 3px;
-    border: 0;
-    outline: 0;
+  margin: 3px;
+  border: 0;
+  outline: 0;
 }
 
 
 /* text */
 .menu {
-    position: relative;
-  }
-  
-  .hamburger {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: none;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .hamburger-line {
-    width: 30px;
-    height: 3px;
-    background-color: #000;
-    margin: 4px;
-  }
-  
-  .menu-items {
-    position: absolute;
-    top: 50px;
-    right: 0;
-    padding: 10px;
-    background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    list-style-type: none;
-  }
-  
-  .menu-items li {
-    margin-bottom: 10px;
-  }
+  display: flex;
+  position: relative;
+}
+
+.hamburger {
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.hamburger-line {
+  width: 30px;
+  height: 3px;
+  background-color: #000;
+  margin: 4px;
+}
+
+.menu-items {
+  top: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  height: 800px;
+  position: absolute;
+  right: 0;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  list-style-type: none;
+}
+
+.menu-items li {
+  margin-bottom: 10px;
+}
+
+.fazerLogin {
+  border: none;
+  border-radius: 15px;
+  font-size: 40px;
+  color: #ffffff;
+  background-color: rgb(255, 0, 13);
+}
+
+.fazerLogin:hover {
+  background-color: rgb(255, 28, 39);
+}
