@@ -12,8 +12,9 @@ header {
   width: 70px;
 }
 .navHeader {
+  display: flex;
+  align-items: center;
   flex-direction: column;
-  margin-right: 2rem;
   display: flex;
 }
 
@@ -24,9 +25,9 @@ header {
   color: #ffffff;
   border-radius: 10px;
   height: 2rem;
-  width: 6rem;
+  width: 400px;
   margin: 10px;
-  font-size: 25px;
+  font-size: 15pt;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,13 +36,12 @@ header {
 }
 
 .textHeader:hover {
-  height: 2.1rem;
-  font-size: 28px;
+  font-size: 16pt;
   background-color: rgb(255, 0, 13);
 }
 
 .lupaPesquisa {
-  margin: 5px;
+  margin: 5px 0px 15px 0px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -112,9 +112,11 @@ header {
 .fazerLogin {
   border: none;
   border-radius: 15px;
+  width: 400px;
   font-size: 40px;
   color: #ffffff;
   background-color: rgb(255, 0, 13);
+  cursor: pointer;
 }
 
 .fazerLogin:hover {
