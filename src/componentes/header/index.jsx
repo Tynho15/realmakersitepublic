@@ -14,7 +14,13 @@ function Header() {
         <header>
             <img className="logoImg" src={imglogo} alt="Logo" />
             <SlGlobe className="icoGlobal"/>
-            <div className="menu">
+            <div></div>
+        </header>
+    )
+}
+export default Header;
+
+/*      <div className="menu">
                 <button className="hamburger" onClick={toggleMenu}>
                     <span className="hamburger-line"></span>
                     <span className="hamburger-line"></span>
@@ -38,8 +44,4 @@ function Header() {
                         <button className='fazerLogin'>Fazer login</button>
                     </ul>
                 )}
-            </div>
-        </header>
-    )
-}
-export default Header;
+            </div> */
