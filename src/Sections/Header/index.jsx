@@ -1,20 +1,25 @@
 
-import {SlGlobe} from "react-icons/sl";
-import { SlMagnifier } from "react-icons/sl";
-import './style.css'
-import React, { useState } from 'react';
-import imglogo from '../../img/logo_01.png';
-function Header() {
-    const [isOpen, setIsOpen] = useState(false);
+import imglogo from '../../imagens/logo_01.png';
+import Button from "../../componentes/Button";
+import FilledButton from '../../componentes/FilledButton';
+import './style.css';
 
-    const toggleMenu = () => {
-        setIsOpen(!isOpen);
-    };
+
+function Header() {
     return (
         <header>
-            <img className="logoImg" src={imglogo} alt="Logo" />
+            <div className="left">
+                <img className="logo_img" src={imglogo} alt="logo"/>
+            </div>
+            <div className="right">
+                <Button text={"INÍCIO"} active={true}/>
+                <Button text={"JOGOS"}/>
+                <Button text={"DISCORD"}/>
+                <FilledButton text={"Entrar"} />
+            </div>
+            {/* <img className="logoImg" src={imglogo} alt="Logo" />
             <SlGlobe className="icoGlobal"/>
-            <div></div>
+            <div></div> */}
         </header>
     )
 }

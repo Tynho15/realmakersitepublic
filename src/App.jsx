@@ -1,14 +1,12 @@
-import Footer from "./componentes/footer";
-import Header from "./componentes/header";
-import Section from "./componentes/section";
-
-
+import Body from "./Sections/Body";
+import Footer from "./Sections/Footer";
+import Header from "./Sections/Header";
 
 function App() {
     return (
         <div>
             <Header />
-            <Section />
+            <Body />
             <Footer />
         </div>
 
