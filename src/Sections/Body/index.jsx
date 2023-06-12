@@ -1,6 +1,6 @@
 
 import './style.css';
-import logo from '../../img/robsonataquebengadura.gif';
+import logo from '../../imagens/robsonataquebengadura.gif';
 import ReactPlayer from 'react-player/youtube';
 function Section() {
     return (
