@@ -1,11 +1,11 @@
 .botao {
     height: 100%;
-    padding-inline: 40px;
-    font-weight: bold;
+    padding-inline: 20px;
+    font-weight: 700;
 }
 
 .is_active {
-    border: 1px #900;
+    border-bottom: solid 2px #FC0004;
 }
 
 p {

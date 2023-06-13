@@ -15,3 +15,8 @@
     height: 35px;
     text-align: center;
 }
+
+.otherButton button:hover {
+    background: linear-gradient(195.76deg, #FC0004 2.94%, #BC0055 114.88%);
+    box-shadow: 0px 2px 5px -1px #00000075;
+}
