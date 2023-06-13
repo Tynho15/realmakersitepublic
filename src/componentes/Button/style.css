@@ -1,0 +1,13 @@
+.botao {
+    height: 100%;
+    padding-inline: 20px;
+    font-weight: 700;
+}
+
+.is_active {
+    border-bottom: solid 2px #FC0004;
+}
+
+p {
+    color: black;
+}
