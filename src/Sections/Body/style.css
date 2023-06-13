@@ -52,7 +52,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0px 70px 0px 70px;
+    margin: 0% 10% 0% 10%;
     font-weight: 500;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -83,6 +83,7 @@
     width: 100%;
     align-items: center;
     gap: 3rem;
+    padding-top: 70px;
     padding-bottom: 3rem;
     background-image: url("../../imagens/fundo-02.png");
     background-size: contain;
@@ -94,6 +95,8 @@
 }
 
 .rth_1548 {
+    width: 100%;
+    margin: 0% 10% 0% 10%s;
     align-items: center;
     display: flex;
     gap: 5rem;
@@ -119,4 +122,9 @@
     width: 600px;
     border-radius: 10px;
     overflow: hidden;
+}
+
+.logo{
+    filter: none;
+    height: 100px;
 }

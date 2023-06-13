@@ -1,5 +1,5 @@
 import './style.css';
-import logo from '../../imagens/robsonataquebengadura.gif';
+import logo from '../../imagens/Sprite-0001.gif';
 import ReactPlayer from 'react-player/youtube';
 import FilledButton from '../../componentes/FilledButton';
 
@@ -32,8 +32,8 @@ function Section({text}) {
                     </p>
                 </div>
             </section>
+            <h2 className='titulo'>Último Jogo</h2>
             <section id="ultimo-jogo" className="section03">
-                <h2 className='titulo'>Último Jogo</h2>
                 <div className='rth_1548'>
                     <div className="left video">
                         <ReactPlayer playing="true" width="640px" height="360px" controls="true" url='https://www.youtube.com/watch?v=pKulmkhRRY0' />
