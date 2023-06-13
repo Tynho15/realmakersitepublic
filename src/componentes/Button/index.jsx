@@ -1,11 +1,11 @@
 import React from 'react';
 import "./style.css"
 
-function Button ({text, active}) {
+function Button ({text, active, link, externo}) {
     return (
-        <button className={'botao ' + ((active) ? 'is_active' : '')}>
+        <a href={link ? link : "#"} target={externo ? '_blank' : ''} className={'botao ' + ((active) ? 'is_active' : '')}>
             <p>{text}</p>
-        </button>
+        </a>
     );
 }
 
