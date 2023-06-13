@@ -7,11 +7,10 @@ function App() {
         <div>
             <Header />
             <Body text={
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi nihil fugit asperiores tempora pariatur facilis voluptatum ut? Veniam hic eveniet autem aliquam quod labore saepe sapiente, quo suscipit deleniti ab!"
+                    "Um plataforma 2D com muitos mistérios para se desvendar. Explore o máximo de cômodos e desvende os mistérios que os guarda. Enfrente todos os inimigos da mansão mais assombrada dos games."
                 } />
             <Footer />
         </div>
-
     )
 }
 export default App;

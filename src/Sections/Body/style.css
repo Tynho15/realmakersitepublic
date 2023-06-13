@@ -32,7 +32,8 @@
     background-image: url("../../imagens/fundo-01.png");
     background-repeat: no-repeat;
     background-position: right;
-    height: 80vh;
+    padding-top: 150px;
+    padding-bottom: 150px;
     width: 100%;
     display: flex;
 }
