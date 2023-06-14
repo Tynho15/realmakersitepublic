@@ -1,5 +1,7 @@
 .botao {
-    height: 100%;
+    display: flex;
+    align-items: center;
+    height: 98%;
     padding-inline: 20px;
     font-weight: 700;
 }

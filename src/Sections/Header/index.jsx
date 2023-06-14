@@ -13,7 +13,7 @@ function Header() {
             <div className="right">
                 <Button text={"INÍCIO"} active={true}/>
                 <Button text={"JOGOS"}/>
-                <Button text={"DISCORD"}/>
+                <Button text={"DISCORD"} externo={true} link={"https://discord.gg/BYGZXZkRcC"}/>
                 <div style={{width: "20px"}}/> {/*Espaçamento*/}
                 <FilledButton text={"Entrar"} />
             </div>
