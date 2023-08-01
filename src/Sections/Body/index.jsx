@@ -4,7 +4,7 @@ import ReactPlayer from 'react-player/youtube';
 import FilledButton from '../../componentes/FilledButton';
 
 
-function Section({text}) {
+function Section({ text }) {
     return (
 
         <div className="paiSection">

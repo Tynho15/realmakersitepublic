@@ -6,8 +6,10 @@
     font-weight: 700;
 }
 
-.is_active {
+.is_active p {
     border-bottom: solid 2px #FC0004;
+    margin-top: 4px ;
+    padding: 8px;
 }
 
 p {
