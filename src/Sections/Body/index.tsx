@@ -1,6 +1,5 @@
 import { Button } from '@/components/ui/button';
 import char1 from '../../assets/imagens/Sprite-0001.gif';
-import trailer from '../../assets/videos/trailer.mp4';
 
 export const Section = () => {
   return (
@@ -20,7 +19,7 @@ export const Section = () => {
             <h2 className='font-black text-3xl text-gray-700 mb-5'>Último Jogo</h2>
             <div className='flex flex-col items-center justify-center space-y-5'>
               <div className='rounded-xl shadow-md overflow-hidden my-10'>
-                <video className='w-fit h-fit max-h-96' controls={true} src={trailer} />
+                <video className='w-fit h-fit max-h-96' controls={true} src="https://www.youtube.com/watch?v=NILtTocqZ84" />
               </div>
               <div className='flex flex-col items-center justify-center space-y-5'>
                 <h3>Mira's Mansion Trailer</h3>
