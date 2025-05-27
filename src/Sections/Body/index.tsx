@@ -18,19 +18,27 @@ export const Section = () => {
           <div className='flex flex-1 px-10 flex-col w-full leading-7 max-w-[1280px] text-gray-700 space-y-5'>
             <h2 className='font-black text-3xl text-gray-700 mb-5'>Último Jogo</h2>
             <div className='flex flex-col items-center justify-center space-y-5'>
-              <div className='rounded-xl shadow-md overflow-hidden my-10'>
-                <video className='w-fit h-fit max-h-96' controls={true} src="https://www.youtube.com/watch?v=NILtTocqZ84" />
-              </div>
-              <div className='flex flex-col items-center justify-center space-y-5'>
-                <h3>Mira's Mansion Trailer</h3>
-                <p className='text-center'>
-                  Um plataforma 2D com muitos mistérios para se desvendar. Explore o máximo de cômodos e desvende os mistérios que os guarda. Enfrente todos os inimigos da mansão mais assombrada dos games.
-                </p>
-                <Button className='cursor-pointer'>Ir para página do jogo</Button>
+              <div className="flex flex-col items-center justify-center space-y-5">
+                <div className="rounded-xl shadow-md overflow-hidden my-10 w-full max-w-[800px] aspect-video">
+                  <iframe
+                    className="w-full h-full"
+                    src="https://www.youtube.com/embed/NILtTocqZ84?controls=1&rel=0&modestbranding=1"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+                <div className='flex flex-col items-center justify-center space-y-5'>
+                  <h3 className="text-xl font-semibold text-gray-800">Mira's Mansion Trailer</h3>
+                  <p className='text-center text-gray-600'>
+                    Um plataforma 2D com muitos mistérios para se desvendar. Explore o máximo de cômodos e desvende os mistérios que os guarda. Enfrente todos os inimigos da mansão mais assombrada dos games.
+                  </p>
+                  <Button className='cursor-pointer'>Ir para página do jogo</Button>
+                </div>
               </div>
             </div>
           </div>
         </section>
+
         <section id="inicio" className="flex items-center flex-col pt-20 bg-red-500/90">
           <div className="flex flex-1 px-10 flex-col w-full leading-7 max-w-[1280px] text-gray-100 space-y-5 text-shadow-2xs">
             <h1 className='font-black text-3xl text-gray-100 mb-5'>Mira's Mansion</h1>
