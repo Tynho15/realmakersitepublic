@@ -20,12 +20,7 @@ export const Section = () => {
             <div className='flex flex-col items-center justify-center space-y-5'>
               <div className="flex flex-col items-center justify-center space-y-5">
                 <div className="rounded-xl shadow-md overflow-hidden my-10 w-full max-w-[800px] aspect-video">
-                  <iframe
-                    className="w-full h-full"
-                    src="https://www.youtube.com/embed/NILtTocqZ84?controls=1&rel=0&modestbranding=1"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe>
+                  <iframe width="100%" height="100%" src="https://www.youtube.com/embed/pKulmkhRRY0" title="Mira&#39;s masion, gameplay demo" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                 </div>
                 <div className='flex flex-col items-center justify-center space-y-5'>
                   <h3 className="text-xl font-semibold text-gray-800">Mira's Mansion Trailer</h3>
